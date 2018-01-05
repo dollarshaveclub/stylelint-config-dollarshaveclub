@@ -3,6 +3,10 @@
 [![Build Status](https://travis-ci.org/dollarshaveclub/stylelint-config-dollarshaveclub.svg?branch=master)](https://travis-ci.org/dollarshaveclub/stylelint-config-dollarshaveclub)
 [![Greenkeeper badge](https://badges.greenkeeper.io/dollarshaveclub/stylelint-config-dollarshaveclub.svg)](https://greenkeeper.io/)
 
+This repository contains Dollar Shave Club [Stylelint](https://stylelint.io/) rules.
+
+This project is beta. It will be published soon.
+
 ## Installation
 
 ```
