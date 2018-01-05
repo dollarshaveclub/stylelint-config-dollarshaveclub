@@ -1,7 +1,5 @@
 # stylelint-config-dollarshaveclub
 
-# tslint-config-dollarshaveclub
-
 [![Build Status](https://travis-ci.org/dollarshaveclub/stylelint-config-dollarshaveclub.svg?branch=master)](https://travis-ci.org/dollarshaveclub/stylelint-config-dollarshaveclub)
 [![Greenkeeper badge](https://badges.greenkeeper.io/dollarshaveclub/stylelint-config-dollarshaveclub.svg)](https://greenkeeper.io/)
 
