@@ -4,25 +4,25 @@
   "description": "stylelint configuration for Dollar Shave Club",
   "main": "index.js",
   "scripts": {
+    "eslint": "npx eslint . --fix",
     "test": "mocha tests/index.js --timeout 10s"
   },
   "repository": {
     "type": "git",
-    "url":
-      "git+https://github.com/dollarshaveclub/stylelint-config-dollarshaveclub.git"
+    "url": "git+https://github.com/dollarshaveclub/stylelint-config-dollarshaveclub.git"
   },
-  "keywords": ["stylelint"],
-  "author":
-    "DSC Engineering <engineering.services@dollarshaveclub.com> (https://engineering.dollarshaveclub.com/)",
+  "keywords": [
+    "stylelint"
+  ],
+  "author": "DSC Engineering <engineering.services@dollarshaveclub.com> (https://engineering.dollarshaveclub.com/)",
   "license": "MIT",
   "bugs": {
-    "url":
-      "https://github.com/dollarshaveclub/stylelint-config-dollarshaveclub/issues"
+    "url": "https://github.com/dollarshaveclub/stylelint-config-dollarshaveclub/issues"
   },
-  "homepage":
-    "https://github.com/dollarshaveclub/stylelint-config-dollarshaveclub#readme",
+  "homepage": "https://github.com/dollarshaveclub/stylelint-config-dollarshaveclub#readme",
   "devDependencies": {
     "eslint": "^4.14.0",
+    "eslint-config-dollarshaveclub": "^2.3.1",
     "globby": "^7.1.1",
     "mocha": "^4.1.0",
     "stylelint": "^8.4.0",

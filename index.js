@@ -1,4 +1,4 @@
-"Use Strict";
+"Use Strict"
 
 module.exports = {
   extends: ["stylelint-config-standard"],

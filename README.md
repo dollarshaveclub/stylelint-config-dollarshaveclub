@@ -27,6 +27,8 @@ For frameworkless JavaScript modules:
 
 ## Dependencies
 
+- **[eslint](https://github.com/eslint/eslint/):** ensures JavaScript matches JavaScript guidelines.
+- **[eslint-config-dollarshaveclub](https://github.com/dollarshaveclub/eslint-config-dollarshaveclub/):** ensures JavaScript matches DSC guidelines.
 - **[globby](https://github.com/sindresorhus/globby):** used for testing all test files in `tests/`.
 - **[mocha](https://mochajs.org/):** used for testing.
 - **[stylelint](https://github.com/palantir/tslint):** used for linting typescript (`.css, .scss`) files.
