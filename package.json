@@ -1,6 +1,6 @@
 {
   "name": "stylelint-config-dollarshaveclub",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "stylelint configuration for Dollar Shave Club",
   "main": "index.js",
   "scripts": {
