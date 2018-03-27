@@ -1,7 +1,7 @@
-"use strict"
+'use strict'
 
 module.exports = {
-  extends: [require.resolve("./")],
+  extends: [require.resolve('./')],
   plugins: [
     // 'stylelint-scss',
     'stylelint-order',
@@ -17,6 +17,7 @@ module.exports = {
         'each',
         'function',
         'return',
+        'if',
       ],
     }],
     'order/properties-alphabetical-order': true,

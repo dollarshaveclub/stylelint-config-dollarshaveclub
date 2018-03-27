@@ -1,14 +1,14 @@
-const exec = require("child_process").exec
-const globby = require("globby")
-const assert = require("assert")
+const exec = require('child_process').exec
+const globby = require('globby')
+const assert = require('assert')
 
 // css globs
-const passingCSSFiles = globby.sync(["tests/fixtures/**/pass/*.css"])
-const failingCSSFiles = globby.sync(["tests/fixtures/**/fail/*.css"])
+const passingCSSFiles = globby.sync(['tests/fixtures/**/pass/*.css'])
+const failingCSSFiles = globby.sync(['tests/fixtures/**/fail/*.css'])
 
 // scss globs
-const passingSCSSFiles = globby.sync(["tests/fixtures/**/pass/*.scss"])
-const failingSCSSFiles = globby.sync(["tests/fixtures/**/fail/*.scss"])
+const passingSCSSFiles = globby.sync(['tests/fixtures/**/pass/*.scss'])
+const failingSCSSFiles = globby.sync(['tests/fixtures/**/fail/*.scss'])
 
 // css tests
 passingCSSFiles.forEach(passingCSSFilename => {
@@ -30,7 +30,6 @@ failingCSSFiles.forEach(failingCSSFilename => {
   it(`${failingCSSFilename} should not pass linting`, done => {
     exec(`npx stylelint "${failingCSSFilename} --config index.js`, (err, stdout, stderr) => {
       assert(err)
-      console.log(stdout)
       done()
     })
   })
@@ -56,7 +55,6 @@ failingSCSSFiles.forEach(failingSCSSFilename => {
   it(`${failingSCSSFilename} should not pass linting`, done => {
     exec(`npx stylelint "${failingSCSSFilename} --config scss.js`, (err, stdout, stderr) => {
       assert(err)
-      console.log(stdout)
       done()
     })
   })
