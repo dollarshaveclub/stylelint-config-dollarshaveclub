@@ -10,6 +10,7 @@ module.exports = {
     'at-rule-no-unknown': [true, {
       'ignoreAtRules': [
         'at-root',
+        'extend',
         'mixin',
         'for',
         'include',
